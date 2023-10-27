@@ -1,0 +1,36 @@
+# .NET Core
+.vscode/
+bin/
+obj/
+**/bin/
+**/obj/
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# IDE, Visual Studio
+.vscode/
+.vs2017/
+.vs2019/
+_UpgradeReport_Files/
+Backup*/
+[Tt]humbs.db
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.dll
+*.log
+*.suo
+*.nupkg
+/Properties/
+launchSettings.json
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+.idea

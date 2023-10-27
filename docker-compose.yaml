@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+ api:
+    image: santosclaudinei/identidade
+    container_name: onetech-container
+    ports:
+      - "5034:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Server=onetechserver.cmw2whm4hmzl.us-east-1.rds.amazonaws.com;Database=IDdb;User Id=admin;Password=O2n3e1T0e2c3h!;TrustServerCertificate=True;
+
